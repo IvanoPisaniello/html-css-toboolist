@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* generics */
+body {
+    background-color: #F6F8F9;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+
+
+/* navbar */
+
+.navbar {
+    height: 80px;
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.logo {
+    vertical-align: middle;
+}
+
+.logo-title {
+    vertical-align: middle;
+}
