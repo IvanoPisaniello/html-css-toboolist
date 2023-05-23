@@ -28,6 +28,64 @@ button {
     background-color: #48ADF1;
 }
 
+.bg-violet {
+    background-color: rgb(131, 40, 131);
+}
+
+.bg-green {
+    background-color: lightgreen;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-pink {
+    background-color: rgb(246, 154, 169);
+}
+
+.bg-dgreen {
+    background-color: darkseagreen;
+}
+
+.triangle {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+h2 {
+    vertical-align: middle;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+.check {
+    color: lightgreen;
+    border: solid 1px lightgreen;
+    border-radius: 50%;
+    padding: 2px 4px;
+    font-size: 13px;
+}
+
+.cross {
+    color: red;
+    border: solid 1px red;
+    border-radius: 50%;
+    padding: 2px 4px;
+    font-size: 13px;
+}
+
+li {
+    margin: 20px;
+}
+
+button {
+    cursor: pointer;
+}
 
 /* navbar */
 
@@ -87,4 +145,12 @@ button {
 
 .todo-list {
     padding: 30px;
+}
+
+.right-button {
+    color: white;
+    border-radius: 40px;
+    padding: 5px 10px;
+    font-size: 11px;
+    margin-left: 5px;
 }
